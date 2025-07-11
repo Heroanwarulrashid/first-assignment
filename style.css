@@ -1,3 +1,98 @@
 *{
     margin: 0%;
 }
+
+/* website font input */
+
+.raleway-<uniquifier> {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/* Header design */
+
+.header{
+    padding: 20px 50px;
+    }
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.first{
+    width: 150px;
+    height: auto;
+}
+
+/* Button design */
+
+.button {
+    background-color: #00B7FC;
+    color: aliceblue;
+    padding: 15px 30px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+
+}
+.button a {
+    background-color: transparent;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.main1 :hover{
+    background-color: #0C203B;
+    transform: translateY(-3px);
+}
+
+.section-one{
+            background-image: url(images/Hero-bg.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            text-align: center;
+            padding-top: 250px;
+            padding-bottom: 150px;
+            margin-top: -200px;
+}
+
+  /* Hero Section Full Design  */
+  
+.heading-one{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    padding-bottom: 30px;
+}
+
+.button-style{
+    background-color: #00B7FC;
+    color: aliceblue;
+    padding: 15px 30px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.button-style a {
+    background-color: transparent;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.button-two :hover{
+    background-color: #0C203B;
+    transform: translateX(-3px);
+}
+
