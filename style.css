@@ -43,7 +43,7 @@
     color: aliceblue;
     text-decoration: none;
     font-family: "Raleway", sans-serif;
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 600;
     cursor: pointer;
 }
@@ -65,7 +65,7 @@
 }
 
   /* Hero Section Full Design  */
-  
+
 .heading-one{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -87,12 +87,66 @@
     color: aliceblue;
     text-decoration: none;
     font-family: "Raleway", sans-serif;
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 600;
     cursor: pointer;
 }
 .button-two :hover{
     background-color: #0C203B;
     transform: translateX(-3px);
+}
+
+.section-two{
+    margin: 100px 0px;
+}
+.container-two{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-items: center;
+}
+
+.heading-two{
+    font-family: "Raleway", sans-serif;
+    font-size: 42px;
+    font-weight: 500;
+    color: #252432;
+    padding-bottom: 10px;
+}
+
+.pera-two{
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    color: #252432;
+    font-weight: 300;
+    padding-bottom: 15px;
+}
+
+    /* Second section full design */
+
+.button-three{    
+    background-color: #00B7FC;
+    color: aliceblue;
+    padding: 15px 30px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.button-three a{
+    background-color: transparent;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.button-style-two :hover{
+    background-color: #0C203B;
+    transform: translateY(+3px);
+}
+.colum-two img{
+    border-radius: 20px;
 }
 
